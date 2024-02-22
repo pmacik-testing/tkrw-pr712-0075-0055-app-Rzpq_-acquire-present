@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-lizk
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0055-tenant/tkrw-pr712-0075-0055-app/devfile-sample-lizk@sha256:f5ed545ff484b19dadcc3372d3a031fbd379d1e0e7272f0be8659dca1107826e
         name: my-nodejs
         ports:
         - containerPort: 3001
